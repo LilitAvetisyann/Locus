@@ -1,0 +1,390 @@
+body{
+    font-family: sans-serif;
+    background-image: url(../images/bg1.jpg);
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    // overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    animation: myAnimbody 25s infinite;
+}
+@keyframes myAnimbody{
+    0%{background-image: url(../images/bg1.jpg);
+
+    }
+    25%{background-image: url(../images/bg2.jpg);
+
+    }
+    50%{background-image: url(../images/bg3.jpg);
+
+    }
+    100%{background-image: url(../images/bg1.jpg);
+
+    }
+}
+header{
+     position: fixed!important;
+    
+     top: 0;
+     left: 0;
+     //transform: translateY(-100%);
+     //transition: all .3s;
+    nav{
+        position: fixed!important;
+        // z-index: 1008;
+        top: 0;
+        left: 0;
+        //transform: translateY(-100%);
+        // transition: all .3s ease-in-out,padding-right 0s;
+        width: 100%;
+        // z-index: 1020;
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            li{
+                list-style-type: none;
+                // margin-left: 5px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 19px;
+                }
+            }
+        }
+
+    }
+
+}
+.navbar{
+    padding: 32px 20px 32px 20px ;
+
+}
+.navlogo{
+    height: 30px;
+    width: 30px;
+    display: none;
+    padding-left: 10px;
+
+}
+.logoimg{
+    height: 40px;
+    width: 40px;
+}
+.logoimgli{
+    padding-left: 5%;
+}
+.logohome{
+    padding-right: 12%;
+}
+.headh1{
+    color: white;
+    text-align: center;
+    // padding-top: 1%;
+    font-size: 76px;
+    font-family: sans-serif;
+    margin-top: 20px;  
+
+}
+
+
+.headerh2{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    letter-spacing: .15rem!important;
+    text-transform: uppercase!important;
+
+}
+
+.headerbtn{
+    text-align: center;
+    padding: 20px 25px;
+    font-size: 14px;
+    border-radius: 7px;
+    border: solid white 1px;
+}
+.btndiv1{
+    display: flex;
+    justify-content: center;
+}
+
+//----------------------------
+.defdiv{
+    display: none;
+    background: #000000c2;
+    height: 1000px;
+    width: 300px;
+    
+}
+.btndiv{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+
+}
+.navdiv{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        padding: 5px;
+    }
+    a:hover{
+        color:#b78989 ;
+    }
+}
+
+.close{
+    z-index: 19878;
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+// -----------------sec1-----------
+.sec1{
+margin-top: 320px;
+padding-bottom: 200px;
+}
+.glavdivcard{
+    color: white;
+    background:rgba(10,11,15,.9);  
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 60px;
+    border-radius: 5px;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.imgcard img{
+    border-radius: 5%;
+}
+.textcard{
+    margin-left: 50px;
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 22px;
+        color: rgb(205, 202, 202);
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+.texcard2{
+    display: flex;
+    p{
+        font-size: 18px ;
+    }
+    b{
+        font-size: 55px;
+    }
+}
+.ca1{
+    width: 50%;
+    // line-height: 25px;
+    
+}
+.ca2{
+    width: 50%;
+    margin-left: 40px;
+    // line-height: 25px;
+    h3{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    ul{
+        padding: 0;
+    }
+
+}
+// --------------sec2------------
+.sec2{
+    margin-top: 320px;
+    padding-bottom: 200px;
+    }
+
+.glavdivcard2{
+    color: white;
+    background:rgba(10,11,15,.9);  
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 60px;
+    border-radius: 5px;
+    padding-bottom: 300px;
+
+    
+}
+.gr{
+    img{
+        width: 367px;
+
+    }
+}
+// ---------------------------sec3-------------
+
+.sec3{
+    margin-top: 320px;
+    padding-bottom: 200px;
+    }
+
+.glavdivcard3{
+    color: white;
+    background:rgba(10,11,15,.9);  
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 40px;
+    border-radius: 5px;
+}
+.card3{
+
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.im{
+    padding: 10px;
+    img{
+        border-radius: 5px;;
+        height: 100%;
+        width: 370px;
+        
+        
+        
+
+    }
+}
+
+
+
+
+
+
+
+@media screen and(max-width:1480px) {
+    .im img{
+        width: 350px;
+    }
+    
+}
+@media screen and(max-width:1400px) {
+    .im img{
+        width: 320px;
+    }
+    
+}
+
+@media screen and(max-width:1300px) {
+    .im img{
+        width: 300px;
+    }
+    
+}
+@media screen and(max-width:1230px) {
+    .im img{
+        width: 280px;
+    }
+    
+}
+@media screen and(max-width:1200px) {
+    .im img{
+        width: 385px;
+    }
+    
+}
+@media screen and(max-width:1053px) {
+    .im img{
+        width: 365px;
+    }
+    
+}
+@media screen and(max-width:1005px) {
+    .im img{
+        width: 300px;
+    }
+    
+}
+@media screen and(max-width:860px) {
+    .im img{
+        width: 360px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1093px) {
+
+    .logoimgli{
+        padding-left: 0%;
+    }
+    .logohome{
+        padding-right: 0%;
+    }
+}
+@media screen and (max-width: 900px) {
+    #dn{
+        display: none;
+    }
+    .logohome{
+        padding-right: 25%;
+    }
+    .navlogo{
+        display: block;
+    }
+ 
+
+    
+}
+// ------------------------
+@media screen  and (max-width: 1700px) {
+    .glavdivcard{
+        margin-left: 7%;
+        margin-right: 7%;
+
+    }
+    .glavdivcard3{
+
+        margin-left: 7%;
+        margin-right: 7%;
+        .card3{
+            justify-content: center;
+        }
+    }
+    
+    
+}
+
+@media screen  and (max-width: 1200px) {
+    .glavdivcard{
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+   .imgcard img{
+    
+   }
+   .ca2{
+    
+   }
+
+}
+
